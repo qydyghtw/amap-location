@@ -166,7 +166,7 @@ function addmarker(i, d) {
     var  latY = d.location.getLat();
     var  markerOption = {
         map: this.map,
-        icon: "http://webapi.amap.com/images/" + (i + 1) + ".png",
+        icon: "https://webapi.amap.com/images/" + (i + 1) + ".png",
         position: new AMap.LngLat(lngX, latY)
     };
     var  mar = new AMap.Marker(markerOption);
