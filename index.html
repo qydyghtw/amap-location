@@ -139,8 +139,8 @@ function init() {
 function placeSearch_CallBack(data) {
     this.windowsArr = [];
     this.markers = [];
-    const poiArr = data.poiList.pois;
-    const resultCount = poiArr.length;
+    var poiArr = data.poiList.pois;
+    var resultCount = poiArr.length;
     this.map.clearMap();
     var  resultStr = "";
     for (var  i = 0; i < resultCount; i++) {
