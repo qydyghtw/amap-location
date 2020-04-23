@@ -83,7 +83,9 @@ init();
  */
 function init() {
     var self=this;
-    this.map = new AMap.Map('map_container',{});
+    this.map = new AMap.Map('map_container',{
+        mapStyle: 'amap://styles/macaron',
+    });
 
     //加载工具条
     this.map.plugin('AMap.ToolBar', function () {
